@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charity Donation</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+   
+    <div class="donation-form-container">
+        <h1>Support a Good Cause</h1>
+        <p>Your donation can make a difference in someone's life. Every little bit helps!</p>
+        <form action="/donate" method="post">
+            <div class="form-group">
+                <label for="amount">Enter donation amount:</label>
+                <input type="number" id="amount" name="amount" required class="form-control">
+            </div>
+            <button type="submit" class="donate-btn">Donate Now</button>
+        </form>
+        <div class="charity-info">
+            <img src="https://thumbs.dreamstime.com/b/charity-word-cloud-heart-concept-56405290.jpg" alt="Charity Image">
+            <p>Our charity focuses on providing education and healthcare to underprivileged children. Your donation will directly impact their lives.</p>
+        </div>
+        <div class="social-links">
+            <a href="#" title="Facebook"><i class="ri-facebook-circle-fill"></i></a>
+            <a href="#" title="Twitter"><i class="ri-twitter-x-fill"></i></a>
+            <a href="#" title="Instagram"><i class="ri-instagram-fill"></i></a>
+        </div>
+    </div>
+    
+</body>
+</html>
